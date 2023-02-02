@@ -7,8 +7,8 @@ var ptx, pty;
 var px,py;
 
 if (screen.width < 992) {
-    canvas.width = screen.width - 70;
-    canvas.height = screen.height - 100;
+    canvas.width = screen.width;
+    //canvas.height = screen.height;
     document.body.style.overflow = "hidden";
 }
 
